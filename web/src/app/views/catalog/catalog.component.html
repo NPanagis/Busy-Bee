@@ -1,0 +1,14 @@
+<p>catalog works!</p>
+<br/>
+
+<div *ngFor="let product of products">
+    <p>{{product.productName}}</p>
+    <p>{{product.productDescription}}</p>
+</div>
+
+<!-- <div *ngIf="products; else #LoadingProducts">
+    
+</div>
+<ng-template #LoadingProducts>
+    <p>Loading Products</p>
+</ng-template> -->
