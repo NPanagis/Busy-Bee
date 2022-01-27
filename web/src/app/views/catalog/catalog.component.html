@@ -1,9 +1,19 @@
-<p>catalog works!</p>
-<br/>
+<h1 class="page-title">Product Catalog</h1>
+<div class="sorting-container">
+    <p>Sort by: Price</p>
+</div>
+<div class="products-container">
+    <div *ngFor="let product of products">
+        <mat-card class="product-card">
+            <mat-card-title>{{product.productName}}</mat-card-title>
+            <p>{{product.productDescription}}</p>
+            <mat-card-actions class="card-buttons">
+                <p class="card-price"><b>${{product.productPrice}}</b></p>
+                <button mat-raised-button color="primary">Add to Cart</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
 
-<div *ngFor="let product of products">
-    <p>{{product.productName}}</p>
-    <p>{{product.productDescription}}</p>
 </div>
 
 <!-- <div *ngIf="products; else #LoadingProducts">

@@ -1,0 +1,35 @@
+.page-title {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.product-card {
+    width: 300px;
+    height: 250px;
+    margin: 15px;
+    flex-grow: 1;
+}
+
+.card-price {
+    display: flex;
+    align-items: center;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+}
+
+.sorting-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 25px;
+}

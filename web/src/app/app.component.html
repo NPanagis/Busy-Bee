@@ -1,20 +1,28 @@
-<div>
-  <div>
-    <h1>Busy Bee Office Supplies</h1>
-    <h3>Supplying you one <i>buzz</i> at a time!</h3>
-  </div>
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/catalog">Catalog</a>
-        </li>
+<div class="container">
+
+  <div class="header">
+    <div class="left-header">
+      <img class="bee-logo" src="../assets/images/bee-logo.png" />
+    </div>
+    <div class="left-header">
+      <h1>Busy Bee Office Supplies</h1>
+      <h3>Supplying you one <i>buzz</i> at a time!</h3>
+    </div>
+  
+    <nav class="right-center">
+      <ul class="nav-list">
+        <li><a class="nav-item" href="/">Home</a></li>
+        <li><a class="nav-item" href="/catalog">Catalog</a></li>
+        <li><a class="nav-item" href="/">My Orders</a></li>
+        <li><a class="nav-item" href="/">Logout</a></li>
       </ul>
     </nav>
   </div>
-</div>
 
-<router-outlet></router-outlet>
+  <div class="line-space"></div>
+  
+  <router-outlet></router-outlet>
+  
+  <div class="footer"></div>
+
+</div>

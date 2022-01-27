@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+    --dark-jungle-green: #071e22ff;
+    --thistle: #cfbae1ff;
+    --aero-blue: #c7efcfff;
+    --honey-yellow: #f7b32bff;
+    --honey-yellow-alpha: rgba(247, 179, 43, 0.541);
+    --lilac: #c59fc9ff;
+}
+
+html, body { height: 100%; }
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: var(--honey-yellow-alpha);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

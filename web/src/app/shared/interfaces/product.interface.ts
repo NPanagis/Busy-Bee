@@ -10,4 +10,5 @@ export interface  Product {
     productName: string;
     productDescription: string;
     ProductCategory: ProductCategory;
+    productPrice: number;
 }
